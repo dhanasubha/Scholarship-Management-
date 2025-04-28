@@ -80,7 +80,7 @@ public class ScholarshipManagementSystem {
             switch (choice) {
                 case 1:
                     if (count < scholarships.length) {
-                        // Input Scholarship info
+                        
                         System.out.print("Enter Scholarship ID: ");
                         String scholarshipId = sc.nextLine();
                         System.out.print("Enter Scholarship Name: ");
