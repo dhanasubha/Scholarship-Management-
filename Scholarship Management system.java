@@ -75,7 +75,7 @@ public class ScholarshipManagementSystem {
             System.out.println("3. Exit");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
-            sc.nextLine(); // clear input buffer
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:
