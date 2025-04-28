@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Base class
+
 class Person {
     String name;
     String age;
@@ -11,7 +11,7 @@ class Person {
     }
 }
 
-// Student class inherits from Person
+
 class Student extends Person {
     String studentId;
     String grade;
@@ -33,7 +33,6 @@ class Student extends Person {
     }
 }
 
-// Scholarship class inherits from Student
 class Scholarship extends Student {
     String scholarshipId;
     String scholarshipName;
@@ -61,7 +60,7 @@ class Scholarship extends Student {
     }
 }
 
-// Main class
+
 public class ScholarshipManagementSystem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -135,4 +134,4 @@ public class ScholarshipManagementSystem {
 
         sc.close();
     }
-}# Scholarship-Management-
+}
